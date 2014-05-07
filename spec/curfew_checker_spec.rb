@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 describe "simple_curfew_checker" do 
   it "should tell you if you're in trouble if it's 11" do 
     STDOUT.should_receive(:puts).with("You're in trouble! Better get home quick!")
