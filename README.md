@@ -1,7 +1,7 @@
------
-languages: ruby
-tags: ruby, if/else, kids
------
+---
+ tags: ruby, if/else, kids
+ languages: ruby
+---
 
 # Curfew Checker
 
