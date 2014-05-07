@@ -11,11 +11,43 @@ We're going to be using if and else statements wrapped in methods that take in `
 
 ## Simple Curfew Checker
 
+In this section, we'll be using an `if` statement, so let's just review that for a moment. Here's the sytax:
+
+```ruby
+if condition_goes_here
+  do_something_here
+end
+```
+For instance:
+```ruby
+if 4 < 5
+  puts "Four is less than five."
+end
+```
+will print the sentence "Four is less than five."
+
 Let's start by writing a simple method that takes in `time` as a parameter and checks with an `if` statement to check if `time` is greater than or equal to curfew, 11. To pass the Spec, check out what you should be outputting. Type `rspec` into your command line from the root directory of the project to see if the first test passes.
 
 ## Curfew Checker
 
-Before we just wrote an `if` statement. Let's get a little more specific with an `if/else` statement. An `if/else` statement checks the condition of the if statement, and if that returns false, it moves onto the else statement. In an `if/else` statement, something will always happen.
+Before we just wrote an `if` statement. Let's get a little more specific with an `if/else` statement. An `if/else` statement checks the condition of the if statement, and if that returns false, it moves onto the else statement. In an `if/else` statement, something will always happen. Let's just review the sytax for a moment:
+
+```ruby
+if condition_goes_here
+  do_something_here
+else
+  do_something_else_here
+end
+```
+For instance:
+```ruby
+if 6 < 5
+  puts "Six is less than five."
+else
+  puts "Six is not less than five."
+end
+```
+will print the sentence "Six is not less than five."
 
 Before we were just checking our curfew,
 
