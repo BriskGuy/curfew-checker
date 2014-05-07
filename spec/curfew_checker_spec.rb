@@ -57,3 +57,24 @@ describe "complex_curfew_checker" do
     complex_curfew_checker(9)
   end
 end
+
+
+describe "deluxe_curfew_checker" do 
+  it "should say you're in trouble if it's 11" do 
+    STDOUT.should_receive(:puts).with("Time to teleport!")
+    require_relative '../lib/deluxe_curfew_checker.rb'
+    deluxe_curfew_checker(11)
+  end
+
+  it "should say you're in trouble if it's later than 11" do 
+    STDOUT.should_receive(:puts).with("You're in trouble! Better get home quick!")
+    require_relative '../lib/deluxe_curfew_checker.rb'
+    deluxe_curfew_checker(12)
+  end
+
+  it "should say you can keep having fun with the time you have left" do 
+    STDOUT.should_receive(:puts).with("You have 2 hour(s) left to keep having fun!")
+    require_relative '../lib/deluxe_curfew_checker.rb'
+    deluxe_curfew_checker(9)
+  end
+end
