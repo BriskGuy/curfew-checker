@@ -49,10 +49,16 @@ end
 ```
 will print the sentence "Six is not less than five."
 
-Before we were just checking our curfew,
+Before we were just checking our curfew, but let's include an `else` condition that let's us know that we're still under curfew. Remember, check out the spec to see what's expected!
 
 ## Complex Curfew Checker
 
+Okay, things are about to get even more complex, because it's 5th Year and you've just learned to apparate (yet you still have a curfew, which sucks). However, apparating is awesome because it gets you home instantly. If curfew is exactly 11, then you're all good if you can apparate home. (Note: No one really listens to Hermione about apparating in Hogwarts...)
+
+To achieve a multi-conditional checker like this, we will need to do an `if/elsif/else` statement. We'll want to check three things here: if time is greater than 11, if time is exactly 11, and everything else.
+
 ## Deluxe Curfew Checker
+
+
 
 ## Platinum Curfew Checker
