@@ -82,7 +82,11 @@ will print the sentence "Six equals six."
 
 ## Deluxe Curfew Checker
 
-Until now, our `else` statement has only been telling us if we're under curfew, because the `if/elsif` statements have bee acting as checkers for that. Let's use our `else` statement to do a bit more. Let's have it tell us how much time we have left until curfew. Remember, we have access to two numbers here: curfew (which we know is 11) and the current time we're inputting into our method.
+For this section, you'll need to print integers to the console so let's go over that sytax real fast. Say you have 6 apples, `num_of_apples = 6`, and you have two options for printing this info out:
+1. puts "I have " + num_of_apples.to_s + " apples."
+2. puts "I have #{num_of_apples} apples."
+
+Cool, now that we know how to do this, let's move onto the meat of this section! Until now, our `else` statement has only been telling us if we're under curfew, because the `if/elsif` statements have bee acting as checkers for that. Let's use our `else` statement to do a bit more. Let's have it tell us how much time we have left until curfew. Remember, we have access to two numbers here: curfew (which we know is 11) and the current time we're inputting into our method.
 
 What's a useful way to save the values of these numbers so we can use them here? Assigning them to variables!
 
