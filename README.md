@@ -7,6 +7,14 @@
 
 We're going to use Ruby to do something pretty cool, better than just checking your watch. Imagine you're at Hogwarts and there's a curfew to get back to the common room by 11pm. Let's write a program to check if it's time to get back!
 
-We're going to be using if and else statements wrapped in methods that take in `time` as a parameter
+We're going to be using if and else statements wrapped in methods that take in `time` as a parameter, and build out a few different checkers with increasing levels of complexity, to test our ruby skillz.
 
 ## Simple Curfew Checker
+
+## Curfew Checker
+
+## Complex Curfew Checker
+
+## Deluxe Curfew Checker
+
+## Platinum Curfew Checker
