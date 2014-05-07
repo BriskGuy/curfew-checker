@@ -35,4 +35,4 @@ If you haven't already, within our method, assign 11 to a variable `curfew`, tha
 
 ## Platinum Curfew Checker
 
-Now it's 7th year and your curfew isn't fixed at 11. Further, students from all years have heard about your curfew checker and want to use it too. We need to figure out a way to have it not only take in time, but also curfew, both of which are now subject to change depending on the user. Methods can take in more than one parameter 
+Now it's 7th year and your curfew isn't fixed at 11. Further, students from all years have heard about your curfew checker and want to use it too. We need to figure out a way to have it not only take in time, but also curfew, both of which will be different for each user. Methods can take in more than one parameter. Let's pass in both `time` and `curfew`, and use those variables within our code, just like in the Deluxe Curfew Checker.
