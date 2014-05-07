@@ -53,9 +53,9 @@ Before we were just checking our curfew, but let's include an `else` condition t
 
 ## Complex Curfew Checker
 
-Okay, things are about to get even more complex, because it's 5th Year and you've just learned to apparate (yet you still have a curfew, which sucks). However, apparating is awesome because it gets you home instantly. If curfew is exactly 11, then you're all good if you can apparate home. (Note: No one really listens to Hermione about apparating in Hogwarts...)
+Okay, things are about to get even more complex, because it's 5th Year and you've just learned to apparate (yet you still have a curfew, which sucks). However, apparating is awesome because it gets you home instantly. If curfew is exactly 11, then you're all good if you can apparate home! (Note: No one really listens to Hermione about apparating in Hogwarts...)
 
-To achieve a multi-conditional checker like this, we will need to do an `if/elsif/else` statement. We'll want to check three things here: if time is greater than 11, if time is exactly 11, and everything else.
+To achieve a multi-conditional checker like this, we will need to do an `if/elsif/else` statement. We'll want to check three things here: if time is greater than 11, if time is exactly 11, and everything else. Give it a shot!
 
 Let's just review the sytax for a moment:
 
@@ -82,6 +82,12 @@ will print the sentence "Six equals six."
 
 ## Deluxe Curfew Checker
 
+Until now, our `else` statement has only been telling us if we're under curfew, because the `if/elsif` statements have bee acting as checkers for that. Let's use our `else` statement to do a bit more. Let's have it tell us how much time we have left until curfew. Remember, we have access to two numbers here: curfew (which we know is 11) and the current time we're inputting into our method.
 
+What's a useful way to save the values of these numbers so we can use them here? Assigning them to variables!
+
+If you haven't already, within our method, assign 11 to a variable `curfew`, that way we can use it in more than one place. Within our `else` statement, how can we find the difference between `curfew` and `time`? Assign that to a variable that we can interpolate into our puts statement.
 
 ## Platinum Curfew Checker
+
+Now it's 7th year and your curfew isn't fixed at 11. Further, students from all years have heard about your curfew checker and want to use it too. We need to figure out a way to have it not only take in time, but also curfew, both of which are now subject to change depending on the user. Methods can take in more than one parameter 
