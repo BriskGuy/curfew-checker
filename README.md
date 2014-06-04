@@ -1,5 +1,5 @@
 ---
- tags: ruby, if/else, kids
+ tags: ruby, if/else, conditions, kids
  languages: ruby
 ---
 
