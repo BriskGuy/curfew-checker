@@ -84,18 +84,18 @@ describe "platinum_curfew_checker" do
   it "should say you're in trouble if it's 11 and curfew is at 11" do 
     STDOUT.should_receive(:puts).with("Time to apparate!")
     require_relative '../lib/platinum_curfew_checker.rb'
-    deluxe_curfew_checker(11, 11)
+    platinum_curfew_checker(11, 11)
   end
 
   it "should say you're in trouble if it's later than 11, which is your curfew" do 
     STDOUT.should_receive(:puts).with("You're in trouble! Better get back to Hogwarts quick!")
     require_relative '../lib/deluxe_curfew_checker.rb'
-    deluxe_curfew_checker(12, 11)
+    platinum_curfew_checker(12, 11)
   end
 
   it "should say you can keep having if curfew is 11 and time is 9 and say there are 2 hrs left" do 
     STDOUT.should_receive(:puts).with("You have 2 hour(s) left to keep having fun!")
     require_relative '../lib/deluxe_curfew_checker.rb'
-    deluxe_curfew_checker(9, 11)
+    platinum_curfew_checker(9, 11)
   end
 end

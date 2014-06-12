@@ -1,3 +1,3 @@
-def deluxe_curfew_checker(?????)
+def platinum_curfew_checker(?????)
   # code goes here
 end
