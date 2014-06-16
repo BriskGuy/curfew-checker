@@ -11,7 +11,7 @@ We're going to be using if and else statements wrapped in methods that take in `
 
 ## Simple Curfew Checker
 
-In this section, we'll be using an `if` statement, so let's just review that for a moment. Here's the sytax:
+In this section, we'll be using an `if` statement, so let's just review that for a moment. Here's the syntax:
 
 ```ruby
 if condition_goes_here
