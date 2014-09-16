@@ -2,7 +2,7 @@
 tags: ruby, if/else, conditions, kids
 languages: ruby
 type: lab
-level:1
+level: 1
 ---
 
 # Curfew Checker Lab
