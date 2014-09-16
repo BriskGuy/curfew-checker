@@ -1,9 +1,8 @@
-require 'spec_helper'
-
 describe "simple_curfew_checker" do 
   before(:all) do
     require_relative '../lib/simple_curfew_checker.rb'
   end
+
   it "should tell you if you're in trouble if it's 11" do 
     expect(STDOUT).to receive(:puts).with("You're in trouble! Better get home quick!")
     simple_curfew_checker(11)
