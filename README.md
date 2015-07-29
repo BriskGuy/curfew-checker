@@ -1,9 +1,4 @@
----
- tags: ruby, if/else, conditions, kids
- languages: ruby
- type: lab
- level:1
----
+
 ### Curfew Checker Lab
 <img src="https://s3.amazonaws.com/after-school-assets/curfew.jpg" width="300px" align="right" hspace="10"> Imagine you're at Hogwarts and there's a curfew to get back to the common room by 11. Who needs a watch when you could just write a program to check if it's time to get back!
 
