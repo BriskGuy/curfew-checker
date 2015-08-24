@@ -1,16 +1,5 @@
-<<<<<<< HEAD
-describe "simple_curfew_checker" do 
-  before(:all) do
-    require_relative '../lib/simple_curfew_checker.rb'
-  end
-=======
 require_relative '../lib/curfew_checker.rb'
 describe "#simple_curfew_checker" do
-
-  # before(:all) do
-  #   require_relative '../lib/simple_curfew_checker.rb'
-  # end
->>>>>>> master
 
   it "should tell you if you're in trouble if it's 11" do 
     expect(simple_curfew_checker(11)).to eq("You're in trouble! Better get home quick!")
@@ -54,7 +43,7 @@ describe "#complex_curfew_checker" do
   end
 
   it "should say you can keep having fun" do 
-    expect(complex_curfew_checker(9)).to eq("It's all good. Keep having fun!")
+    expect(complex_curfew_checker(9)).to eq("Keep having fun!")
 
   end
 end
@@ -62,16 +51,16 @@ end
 describe "#deluxe_curfew_checker" do 
 
   it "should say Time to apparate" do 
-    expect(delux_curfew_checker(11)).to eq("Time to apparate!")
+    expect(deluxe_curfew_checker(11)).to eq("Time to apparate!")
     
   end
 
   it "should say you're in trouble if it's later than 11" do 
-    expect(delux_curfew_checker(12)).to eq("You're in trouble! Better get home quick!")
+    expect(deluxe_curfew_checker(12)).to eq("You're in trouble! Better get home quick!")
   end
 
   it "should say you can keep having fun with the time you have left" do 
-    expect(delux_curfew_checker(9)).to eq("You're in trouble! Better get home quick!")
+    expect(deluxe_curfew_checker(9)).to eq("You have 2 hour(s) left to keep having fun!")
   end
 end
 
