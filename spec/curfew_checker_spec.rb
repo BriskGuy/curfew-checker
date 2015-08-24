@@ -1,8 +1,9 @@
-describe "simple_curfew_checker" do
+require_relative '../lib/curfew_checker.rb'
+describe "#simple_curfew_checker" do
 
-  before(:all) do
-    require_relative '../lib/simple_curfew_checker.rb'
-  end
+  # before(:all) do
+  #   require_relative '../lib/simple_curfew_checker.rb'
+  # end
 
   it "should tell you if you're in trouble if it's 11" do 
     expect(STDOUT).to receive(:puts).with("You're in trouble! Better get home quick!")
@@ -20,11 +21,11 @@ describe "simple_curfew_checker" do
   end
 end
 
-describe "curfew_checker" do
+describe "#curfew_checker" do
 
-  before(:all) do
-    require_relative '../lib/curfew_checker.rb'
-  end
+  # before(:all) do
+  #   require_relative '../lib/curfew_checker.rb'
+  # end
 
   it "should say you're in trouble if it's 11" do 
     expect(STDOUT).to receive(:puts).with("You're in trouble! Better get home quick!")
@@ -42,11 +43,11 @@ describe "curfew_checker" do
   end
 end
 
-describe "complex_curfew_checker" do
+describe "#complex_curfew_checker" do
 
-  before(:all) do
-    require_relative '../lib/complex_curfew_checker.rb'
-  end
+  # before(:all) do
+  #   require_relative '../lib/complex_curfew_checker.rb'
+  # end
 
   it "should say you're in trouble if it's 11" do 
     expect(STDOUT).to receive(:puts).with("Time to apparate!")
@@ -64,11 +65,11 @@ describe "complex_curfew_checker" do
   end
 end
 
-describe "deluxe_curfew_checker" do 
+describe "#deluxe_curfew_checker" do 
 
-  before(:all) do
-    require_relative '../lib/deluxe_curfew_checker.rb'
-  end
+  # before(:all) do
+  #   require_relative '../lib/deluxe_curfew_checker.rb'
+  # end
 
   it "should say you're in trouble if it's 11" do 
     expect(STDOUT).to receive(:puts).with("Time to apparate!")
@@ -86,11 +87,11 @@ describe "deluxe_curfew_checker" do
   end
 end
 
-describe "platinum_curfew_checker" do 
+describe "#platinum_curfew_checker" do 
 
-  before(:all) do
-    require_relative '../lib/platinum_curfew_checker.rb'
-  end
+  # before(:all) do
+  #   require_relative '../lib/platinum_curfew_checker.rb'
+  # end
 
   it "should say you're in trouble if it's 11 and curfew is at 11" do 
     expect(STDOUT).to receive(:puts).with("Time to apparate!")
