@@ -93,4 +93,4 @@ If you haven't already, within your method, assign 11 to a variable `curfew`, so
 
 Now it's 7th year and your curfew isn't fixed at 11 anymore, but students from all years have heard about your curfew checker and want to use it, too. Figure out a way to have it not only take in the current time and the curfew, both of which will be different for each user. (Remember, methods can take in more than one parameter.) Pass in both `time` and `curfew`, and use those variables within your code, just like you did in the Deluxe Curfew Checker.
 
-<a href='https://learn.co/lessons/curfew-checker' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/curfew-checker' title='Curfew Checker Lab'>Curfew Checker Lab</a> on Learn.co and start learning to code for free.</p>
